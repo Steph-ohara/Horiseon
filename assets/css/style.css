@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* applies styles to the header class */
+/* applies styles to the <header> */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,18 +18,18 @@ header {
     color: #ffffff;
 }
 
-/* Styles the <h1> elements nested within the header class only */
+/* Styles the <h1> elements within the <header> */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Styles the "seo" class within the <h1> elements nested within the header class only */
+/* Styles the "seo" class within the <h1> elements in the <header> */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Styles the <div> elemets nested within the header class only */
+/* Styles the <div> elemets nested within the <header> */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,12 +38,12 @@ header div {
     font-size: 20px;
 }
 
-/* Styles the <ul> elements inside the <div> element nested within the header class only */
+/* Styles the <ul> elements inside the <div> element nested within the <header> */
 header div ul {
     list-style-type: none;
 }
 
-/* Styles the <li> element that is inside the <ul> elements, which is inside the <div> element nested within the header class only*/
+/* Styles the <li> element that is inside the <ul> elements, which is inside the <div> element nested within the <header>*/
 header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -89,8 +89,8 @@ p {
     margin-left: 20px;
 }
 
-/* Styles the benefit class */
-.benefits {
+/* Styles the <aside> */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,59 +102,32 @@ p {
 }
 /*
 Deployed Link: 
-https://steph-ohara.github.io/Horiseon/
+https://steph-ohara.github.io/Horiseon/index.html
 Github URL: 
 https://github.com/Steph-ohara/Horiseon
 */ 
 
-/* Styles the benefit-lead class */
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* Styles the benefit class */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-/* Styles <h3> element nested within the the benefit-lead class */
-.benefit-lead h3 {
+/* Styles <h3> element nested within the the benefit class */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Styles the <h3> element nested within the benefit-brand class */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Styles the <h3> element nested within the benefit-cost class */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Styles the <img> element nested within the benefit-lead class */
-.benefit-lead img {
+/* Styles the <img> element nested within the benefit class */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Styles the <img> element nested within the benefit-brand class */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Styles the <img> element nested within the benefit-cost class */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Styles the search-engine-optimazation class */
-.search-engine-optimization {
+/* Styles the services class */
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,55 +136,13 @@ https://github.com/Steph-ohara/Horiseon
     color: #ffffff;
 }
 
-/* Styles the online-reputation-management class */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Styles the social-media-marketing class */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Styles the <img> element nested within the search-engine-optimazation class */
-.search-engine-optimization img {
+/* Styles the <img> element nested within the services class */
+.services img {
     max-height: 200px;
 }
 
-/* Styles the <img> element nested within the online-reputation-management class */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Styles the <img> element nested within the social-media-marketing class */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Styles the <h2> element nested within the search-engine-optimazation class */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Styles the <h2> element nested within the online-reputation-management class */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Styles the <h2> element nested within the social-media-marketing class */
-.social-media-marketing h2 {
+/* Styles the <h2> element nested within the services class */
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
