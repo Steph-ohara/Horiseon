@@ -6,6 +6,9 @@ Horiseon is a company that provides marketing services. Their website page featu
 
 ## Screenshots
 
+![Horiseon nav bar and hero](https://github.com/Steph-ohara/Horiseon/blob/main/assets/images/Screen%20Shot%202021-12-19%20at%208.55.55%20PM.png)
+
+![Horiseon services and benefits section](https://github.com/Steph-ohara/Horiseon/blob/main/assets/images/Screen%20Shot%202021-12-19%20at%208.56.04%20PM.png)
 
 ## Changes to HTML File
 
